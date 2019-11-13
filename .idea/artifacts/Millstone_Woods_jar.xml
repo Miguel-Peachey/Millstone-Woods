@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Millstone Woods:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Millstone_Woods_jar</output-path>
+    <root id="archive" name="Millstone Woods.jar">
+      <element id="module-output" name="Millstone Woods" />
+    </root>
+  </artifact>
+</component>
