@@ -1,5 +1,6 @@
 # Project exclude paths
 /out/
 
-/.idea/
-/src/META-INF/
+/.idea
+
+META-INF
