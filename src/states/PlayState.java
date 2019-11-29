@@ -9,6 +9,7 @@ import input.KeyHandler;
 import input.MouseHandler;
 import utils.Vector2f;
 
+import javax.swing.*;
 import java.awt.*;
 
 public class PlayState extends GameState {
@@ -40,11 +41,8 @@ public class PlayState extends GameState {
         key.menu.tick();
 
         if (key.menu.clicked) {
-            if (gsm.isStateActive(GameStateManager.INVENTORY)) {
-                gsm.add(GameStateManager.INVENTORY);
-            } else {
-                gsm.pop(GameStateManager.INVENTORY);
-        }}
+            JOptionPane.showMessageDialog(null, "Inventory opened");
+        }
 
         player.input(mouse, key);
 
